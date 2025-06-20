@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Johnson - HCI Research Lab</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        .profile-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        @media (min-width: 768px) {
+            .profile-container {
+                grid-template-columns: 300px 1fr;
+            }
+        }
+        
+        .profile-photo-container {
+            text-align: center;
+        }
+        
+        .profile-photo {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--primary-color);
+            margin-bottom: 1rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.5s ease, box-shadow 0.5s ease;
+        }
+        
+        .profile-photo:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+        
+        .profile-info h2 {
+            color: var(--primary-dark);
+            margin-bottom: 0.5rem;
+        }
+        
+        .profile-title {
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .profile-contact {
+            margin-bottom: 1.5rem;
+        }
+        
+        .profile-contact p {
+            margin-bottom: 0.5rem;
+        }
+        
+        .profile-bio {
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+        
+        .section-divider {
+            height: 2px;
+            background: linear-gradient(to right, var(--primary-light), var(--primary-color), var(--primary-light));
+            margin: 2rem 0;
+            border-radius: 2px;
+        }
+        
+        .publication-list {
+            margin-top: 2rem;
+        }
+        
+        .publication-item {
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            background-color: var(--card-color);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .publication-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .social-link {
+            display: inline-block;
+            padding: 0.5rem;
+            border-radius: 50%;
+            background-color: var(--primary-color);
+            color: white;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        
+        .social-link:hover {
+            transform: translateY(-3px);
+            background-color: var(--primary-dark);
+        }
+        
+        .research-interests {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+        
+        .interest-tag {
+            background-color: var(--primary-light);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        
+        .interest-tag:hover {
+            transform: translateY(-2px);
+            background-color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="container header-container">
+                <div class="logo">
+                    <a href="../index.html">HCI Research Lab</a>
+                </div>
+                <button class="mobile-menu-btn" aria-label="Toggle mobile menu" onclick="toggleMobileMenu(event)">
+                    <span>☰</span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item" style="--item-index: 0;">
+                        <a href="../index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item" style="--item-index: 1;">
+                        <a href="../projects.html" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item" style="--item-index: 2;">
+                        <a href="../members.html" class="nav-link active">Team</a>
+                    </li>
+                    <li class="nav-item" style="--item-index: 3;">
+                        <a href="../publications.html" class="nav-link">Publications</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero" style="padding: 2rem 0;">
+                <div class="container">
+                    <h1>Alex Johnson</h1>
+                    <p>Senior Undergraduate Student</p>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container">
+                    <div class="profile-container">
+                        <div class="profile-photo-container">
+                            <img src="../images/undergrad1.jpg" alt="Alex Johnson" class="profile-photo">
+                            <div class="social-links">
+                                <a href="mailto:alex.johnson@university.edu" class="social-link" title="Email">📧</a>
+                                <a href="#" class="social-link" title="LinkedIn">🔗</a>
+                                <a href="#" class="social-link" title="Twitter">🐦</a>
+                                <a href="#" class="social-link" title="GitHub">🔧</a>
+                            </div>
+                        </div>
+                        <div class="profile-info">
+                            <h2>Alex Johnson</h2>
+                            <p class="profile-title">Senior Undergraduate Student</p>
+                            
+                            <div class="profile-contact">
+                                <p><strong>Email:</strong> alex.johnson@university.edu</p>
+                                <p><strong>Office:</strong> Research Building, Room 420</p>
+                            </div>
+                            
+                            <h3>Research Interests</h3>
+                            <div class="research-interests">
+                                <span class="interest-tag">Mobile Interaction</span>
+                                <span class="interest-tag">Wearable Technology</span>
+                                <span class="interest-tag">Health Applications</span>
+                                <span class="interest-tag">User Experience Design</span>
+                            </div>
+                            
+                            <h3>Biography</h3>
+                            <div class="profile-bio">
+                                <p>Alex Johnson is a Senior Undergraduate Student in the Department of Computer Science, working in the Human-Computer Interaction Research Lab under the supervision of Dr. Michael Chen. Alex is pursuing a B.S. in Computer Science with a minor in Psychology, expected to graduate in May 2026.</p>
+                                
+                                <p>Their research focuses on mobile and wearable interfaces for health monitoring applications. Alex is currently working on their senior thesis project, which explores how smartwatch interfaces can be designed to better support mental health tracking and intervention. They are particularly interested in creating unobtrusive interfaces that can detect stress patterns and provide timely support.</p>
+                                
+                                <p>Alex has completed internships at Samsung Research America and a health technology startup, where they contributed to the design and development of mobile health applications. These experiences have informed their research interests in creating technology that positively impacts users' well-being.</p>
+                                
+                                <p>After graduation, Alex plans to pursue graduate studies in Human-Computer Interaction, with the goal of continuing research in health-focused interactive technologies. They are a recipient of the University Undergraduate Research Fellowship and the Computing Research Association's Outstanding Undergraduate Researcher Honorable Mention.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="section-divider"></div>
+                    
+                    <h2 class="section-subtitle">Publications & Projects</h2>
+                    <div class="publication-list">
+                        <div class="publication-item">
+                            <h3 class="publication-title">MindfulWatch: Designing Smartwatch Interfaces for Mental Health Support</h3>
+                            <p class="publication-authors">Johnson, A., Chen, M., & Wong, L.</p>
+                            <p class="publication-venue">ACM CHI Conference on Human Factors in Computing Systems (Student Research Competition)</p>
+                            <p class="publication-year">2024</p>
+                        </div>
+                        
+                        <div class="publication-item">
+                            <h3 class="publication-title">User Study: Evaluating Stress Detection Algorithms in Wearable Devices</h3>
+                            <p class="publication-authors">Chen, M., Johnson, A., & Garcia, R.</p>
+                            <p class="publication-venue">Undergraduate Research Symposium</p>
+                            <p class="publication-year">2023</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>HCI Research Lab</h3>
+                        <p>Advancing the field of Human-Computer Interaction through innovative research.</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../projects.html">Projects</a></li>
+                            <li><a href="../members.html">Team</a></li>
+                            <li><a href="../publications.html">Publications</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Contact</h3>
+                        <p>Email: contact@hcilab.edu</p>
+                        <p>Phone: (123) 456-7890</p>
+                        <p>Address: 123 University Ave, Research Building, Room 456</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 HCI Research Lab. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Enhanced mobile menu toggle with animation support
+        function toggleMobileMenu(event) {
+            if (event) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            
+            const navMenu = document.getElementById('navMenu');
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            
+            // If menu is already closing, don't do anything
+            if (navMenu.classList.contains('closing')) {
+                return;
+            }
+            
+            // If menu is active, close it with animation
+            if (navMenu.classList.contains('active')) {
+                closeMenu();
+            } else {
+                // Open menu
+                menuBtn.classList.add('active');
+                navMenu.classList.add('active');
+                navMenu.classList.remove('closing');
+            }
+        }
+        
+        // Function to close menu with animation
+        function closeMenu() {
+            const navMenu = document.getElementById('navMenu');
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            
+            // Add closing class to trigger exit animation
+            navMenu.classList.add('closing');
+            navMenu.classList.remove('active');
+            menuBtn.classList.remove('active');
+            
+            // Wait for animation to complete before removing classes
+            const animationDuration = getComputedStyle(document.documentElement)
+                .getPropertyValue('--menu-animation-duration') || '0.5s';
+            
+            // Convert duration to milliseconds (remove 's' and multiply by 1000)
+            const durationMs = parseFloat(animationDuration) * 1000;
+            
+            // After animation completes, remove the closing class
+            setTimeout(() => {
+                if (navMenu.classList.contains('closing')) {
+                    navMenu.classList.remove('closing');
+                }
+            }, durationMs);
+        }
+        
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navMenu = document.getElementById('navMenu');
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            
+            if (navMenu.classList.contains('active') && 
+                !navMenu.contains(event.target) && 
+                !mobileMenuBtn.contains(event.target)) {
+                closeMenu();
+            }
+        });
+        
+        // Close mobile menu when window is resized to desktop size
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                const navMenu = document.getElementById('navMenu');
+                if (navMenu.classList.contains('active')) {
+                    closeMenu();
+                }
+            }
+        });
+    </script>
+    <script src="../js/animations.js"></script>
+</body>
+</html>
+

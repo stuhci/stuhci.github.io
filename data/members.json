@@ -1,0 +1,105 @@
+[
+    {
+        "id": 0,
+        "name": "Dr. Taizhou Chen",
+        "type": "Faculty",
+        "title": "Assistant Professor",
+        "position": "Lab Director",
+        "email": "tzchen@stu.edu.cn",
+        "image": "images/profile_img/taizhouchen.jpg",
+        "link": "https://taizhouchen.github.io"
+    },
+    {
+        "id": 1,
+        "name": "Yantao Liu",
+        "type": "Graduate Students",
+        "title": "Master's Students",
+        "position": "Fall, 2023",
+        "email": "ytliu@stu.edu.cn",
+        "image": "images/profile_img/yantaoliu.png",
+        "link": ""
+    },
+    {
+        "id": 2,
+        "name": "Weirong Luo",
+        "type": "Graduate Students",
+        "title": "Master's Students",
+        "position": "Fall, 2024",
+        "email": "wrluo@stu.edu.cn",
+        "image": "images/profile_img/weirongluo.png",
+        "link": ""
+    },
+    {
+        "id": 3,
+        "name": "Xiyun Luo",
+        "type": "Graduate Students",
+        "title": "Master's Students",
+        "position": "Fall, 2024",
+        "email": "xbluo@stu.edu.cn",
+        "image": "images/profile_img/xiyunluo.png",
+        "link": ""
+    },
+    {
+        "id": 6,
+        "name": "Kai Chen",
+        "type": "Intern",
+        "title": "Undergraduate Students",
+        "position": "Bachelor's Intern",
+        "email": "",
+        "image": "images/profile_img/kaichen.jpg",
+        "link": ""
+    },
+    {
+        "id": 4,
+        "name": "Jianxin Wei",
+        "type": "Graduate Students",
+        "title": "Master's Students",
+        "position": "Fall, 2025",
+        "email": "",
+        "image": "",
+        "link": ""
+    },
+    {
+        "id": 5,
+        "name": "Xiangjun Fang",
+        "type": "Graduate Students",
+        "title": "Master's Students",
+        "position": "Fall, 2025",
+        "email": "",
+        "image": "",
+        "link": ""
+    },
+    {
+        "id": 7,
+        "name": "Xingyu Liu",
+        "type": "Intern",
+        "title": "Undergraduate Students",
+        "position": "Bachelor's Intern",
+        "email": "",
+        "image": "images/profile_img/xingyuliu.png",
+        "link": ""
+    },
+
+    {
+        "id": 8,
+        "name": "Linhan Fang",
+        "type": "Intern",
+        "title": "Undergraduate Students",
+        "position": "Bachelor's Intern",
+        "email": "",
+        "image": "images/profile_img/linhanfang.png",
+        "link": ""
+    },
+
+    {
+        "id": 9,
+        "name": "Jiale Yang",
+        "type": "Intern",
+        "title": "Undergraduate Students",
+        "position": "Bachelor's Intern",
+        "email": "",
+        "image": "images/profile_img/jialeyang.jpg",
+        "link": ""
+    }
+
+]

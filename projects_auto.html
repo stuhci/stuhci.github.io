@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Multimodal HCI Lab @ STU</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="container header-container">
+                <div class="logo">
+                    <a href="index.html">Multimodal HCI Lab @ STU</a>
+                </div>
+                <button class="mobile-menu-btn" aria-label="Toggle mobile menu" onclick="toggleMobileMenu(event)">
+                    <span>☰</span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item" style="--item-index: 0;">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item" style="--item-index: 1;">
+                        <a href="projects_auto.html" class="nav-link active">Projects</a>
+                    </li>
+                    <li class="nav-item" style="--item-index: 2;">
+                        <a href="members_auto.html" class="nav-link">Team</a>
+                    </li>
+                    <li class="nav-item" style="--item-index: 3;">
+                        <a href="publications_auto.html" class="nav-link">Publications</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero" style="padding: 2rem 0;">
+                <div class="container">
+                    <h1>Our Research Projects</h1>
+                    <p>Explore our innovative research projects in Human-Computer Interaction.</p>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container">
+                    <div class="project-grid" id="projectsContainer">
+                        <!-- Projects will be dynamically loaded here -->
+                        <div class="loading-indicator">Loading projects...</div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>Multimodal HCI Research Lab</h3>
+                        <p>Human-Computer Interaction Research Lab @ STU</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="projects_auto.html">Projects</a></li>
+                            <li><a href="members_auto.html">Team</a></li>
+                            <li><a href="publications_auto.html">Publications</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Contact</h3>
+                        <p>Email: tzchen@stu.edu.cn</p>
+                        <p>Address: Shantou University, No. 5 Cuifeng Road, Chenghai District, Shantou, Guangdong, China</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Human-Computer Interaction Research Lab @ STU. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // Enhanced mobile menu toggle with animation support
+        function toggleMobileMenu(event) {
+            if (event) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            
+            const navMenu = document.getElementById('navMenu');
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            
+            // If menu is already closing, don't do anything
+            if (navMenu.classList.contains('closing')) {
+                return;
+            }
+            
+            // If menu is active, close it with animation
+            if (navMenu.classList.contains('active')) {
+                closeMenu();
+            } else {
+                // Open menu
+                menuBtn.classList.add('active');
+                navMenu.classList.add('active');
+                navMenu.classList.remove('closing');
+            }
+        }
+        
+        // Function to close menu with animation
+        function closeMenu() {
+            const navMenu = document.getElementById('navMenu');
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            
+            // Add closing class to trigger exit animation
+            navMenu.classList.add('closing');
+            navMenu.classList.remove('active');
+            menuBtn.classList.remove('active');
+            
+            // Wait for animation to complete before removing classes
+            const animationDuration = getComputedStyle(document.documentElement)
+                .getPropertyValue('--menu-animation-duration') || '0.5s';
+            
+            // Convert duration to milliseconds (remove 's' and multiply by 1000)
+            const durationMs = parseFloat(animationDuration) * 1000;
+            
+            // After animation completes, remove the closing class
+            setTimeout(() => {
+                if (navMenu.classList.contains('closing')) {
+                    navMenu.classList.remove('closing');
+                }
+            }, durationMs);
+        }
+        
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navMenu = document.getElementById('navMenu');
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            
+            if (navMenu.classList.contains('active') && 
+                !navMenu.contains(event.target) && 
+                !mobileMenuBtn.contains(event.target)) {
+                closeMenu();
+            }
+        });
+        
+        // Close mobile menu when window is resized to desktop size
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 768) {
+                const navMenu = document.getElementById('navMenu');
+                if (navMenu.classList.contains('active')) {
+                    closeMenu();
+                }
+            }
+        });
+    </script>
+
+    <script src="js/projects.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>

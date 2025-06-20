@@ -1,0 +1,418 @@
+[
+  {
+    "id": 14,
+    "name": "Augmenting Typing Experience",
+    "title_short": "Augmenting Tablet Typing Experience by Integrating Key-Press Finger Contact Types as Input",
+    "image": "images/project_img/tipcase_lbw.png",
+    "videos":{
+      "demo_video":{
+        "type":"youtube",
+        "url":"https://www.youtube.com/embed/O8F8zfAloOQ?si=MoJXotcHqCWpxTvS"
+      }
+    },
+    "content": {
+      "description": "Touchscreen typing on tablet has become popular in modern digital routine, calling for investigation of more expressive input method on touchscreen keyboard. In this paper, we propose a novel approach to augment touchscreen typing experience by integrating key-press finger posture recognition to extend the input space of a standard touchscreen keyboard. Our system distinguish between finger tip contact(FP) and finger pad contact(FP) through acoustic sensing, enabling seamless switching between normal and functional input. We evaluate the performance of our system through offline and online experiments, where we show that our system achieves an offline key-wise recognition accuracy of up to 96.3%. The online experiment shows a real-time recognition accuracy of 94% and 88% in quiet and noisy environments, respectively. We further conducted a usability study on text formatting task, which shows that our method significantly outperform the baseline method in terms of input speed and functionality."
+    },
+    "resources":{
+      "presentation_video":"https://www.youtube.com/embed/SRKm68jBOqA?si=k1_W0HR1JJASzY5u"
+    },
+    "publications":[
+      {
+        "title": "Augmenting Tablet Typing Experience by Integrating Key-Press Finger Contact Types as Input",
+        "abstract": "Touchscreen typing on tablet has become popular in modern digital routine, calling for investigation of more expressive input method on touchscreen keyboard. In this paper, we propose a novel approach to augment touchscreen typing experience by integrating key-press finger posture recognition to extend the input space of a standard touchscreen keyboard. Our system distinguish between finger tip contact(FP) and finger pad contact(FP) through acoustic sensing, enabling seamless switching between normal and functional input. We evaluate the performance of our system through offline and online experiments, where we show that our system achieves an offline key-wise recognition accuracy of up to 96.3%. The online experiment shows a real-time recognition accuracy of 94% and 88% in quiet and noisy environments, respectively. We further conducted a usability study on text formatting task, which shows that our method significantly outperform the baseline method in terms of input speed and functionality.",
+        "year": 2025,
+        "venue": "CHI EA '25: Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems",
+        "file": "docs/tipcase_lbw.pdf",
+        "link": "https://dl.acm.org/doi/10.1145/3706599.3720116",
+        "project_page": "project_template.html?id=14",
+        "authors": ["Yantao Liu", "Dongmin Xiao", "Taizhou Chen", "Kening Zhu"]
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": 13,
+    "name": "AirThumb",
+    "title_short": "Supporting Mid-air Thumb Gestures with Built-in Sensors on Commodity Smartphones",
+    "image": "images/project_img/airthumb_lbw.png",
+    "content": {
+      "description":"Taller and wider screens have become a new design tendency on current commercial smartphone market. However, the increasing size of the touch screen on the phone limits the interactivity of the user’s thumb-based interaction. In this paper, we present AirThumb, a machine-learning-based sensing technique to support mid-air thumb gesture interaction on smartphones using the built-in sensors. AirThumb  detects mid-air thumb-based gestures by leveraging multi-sensor data fusion technique, which combines the reflection pattern of an ultrasonic signal that propagates from the top speaker to the bottom microphone with subtle motion data from the phone’s built-in IMU sensor. Our experiment shows that AirThumb  achieves overall recognition accuracy of 94.55%, 94.52%, and 86.14% in sitting, standing, and walking scenarios, respectively. In addition, we demonstrate that the proposed multi-sensor data fusion technique enables AirThumb  to quickly adapt to new users with fewer training samples required.",
+      "contributions":[
+        "We developed AirThumb, a system for recognizing thirteen mid-air thumb-based gestures that leverage an acoustic sensing approach with the fusion of IMU sensor signals.",
+        "We conducted a series of experiments to evaluate AirThumb. The results indicate that the AirThumb detects 13 mid-air thumb-based gestures accurately and robustly while users are sitting, standing, and walking. We also show that incorporating IMU sensor data improves gesture recognition accuracy, system robustness across scenarios, and system adaptiveness between users.",
+        "AirThumb shows potential to expand the thumb-based input space from on the screen to above the screen, which unlocks the design space to support more intuitive and expressive interaction."
+      ]
+    },
+    "publications":[
+      {
+        "title": "AirThumb: Supporting Mid-air Thumb Gestures with Built-in Sensors on Commodity Smartphones",
+        "abstract": "Taller and wider screens have become a new design tendency on current commercial smartphone market. However, the increasing size of the touch screen on the phone limits the interactivity of the user’s thumb-based interaction. In this paper, we present AirThumb, a machine-learning-based sensing technique to support mid-air thumb gesture interaction on smartphones using the built-in sensors. AirThumb  detects mid-air thumb-based gestures by leveraging multi-sensor data fusion technique, which combines the reflection pattern of an ultrasonic signal that propagates from the top speaker to the bottom microphone with subtle motion data from the phone’s built-in IMU sensor. Our experiment shows that AirThumb  achieves overall recognition accuracy of 94.55%, 94.52%, and 86.14% in sitting, standing, and walking scenarios, respectively. In addition, we demonstrate that the proposed multi-sensor data fusion technique enables AirThumb  to quickly adapt to new users with fewer training samples required.",
+        "year": 2025,
+        "venue": "CHI EA '25: Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems",
+        "file": "docs/airthumb_lbw.pdf",
+        "link": "https://dl.acm.org/doi/full/10.1145/3706599.3721219",
+        "project_page": "project_pages/project_airthumb.html",
+        "authors": ["Tianru Hu", "Taizhou Chen", "Kening Zhu"]
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": 12,
+    "name": "EFRing",
+    "title_short": "Enabling Thumb-to-Index-Finger Microgesture Interaction through Electric Field Sensing using Single Smart Ring",
+    "image": "images/project_img/efring.jpg",
+    "videos": {
+      "demo_video": {
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/gnCZrqTkTjU?si=PbbsiZTTqp1iK2ue",
+        "title": "EFRing Demo Video",
+        "description": "Demonstration of EFRing's thumb-to-index-finger microgesture detection capabilities"
+      }
+    },
+    "images": {
+      "thumbnail": "images/project_img/efring.jpg"
+    },
+    "content": {
+      "description": "We present EFRing, an index-finger-worn ring-form device for detecting thumb-to-index-finger (T2I) microgestures through the approach of electric-field (EF) sensing. Based on the signal change induced by the T2I motions, we proposed two machine-learning-based data-processing pipelines: one for recognizing/classifying discrete T2I microgestures, and the other for tracking continuous 1D T2I movements. Our experiments on the EFRing microgesture classification showed an average within-user accuracy of 89.5% and an average cross-user accuracy of 85.2%, for 9 discrete T2I microgestures. For the continuous tracking of 1D T2I movements, our method can achieve the mean-square error of 3.5% for the generic model and 2.3% for the personalized model. Our 1D-Fitts'-Law target-selection study shows that the proposed tracking method with EFRing is intuitive and accurate for real-time usage. Lastly, we proposed and discussed the potential applications for EFRing.",
+      "contributions": [
+        "We developed EFRing, a ring-form device for capturing the EF signals induced by the T2I microgestures. Compared to the existing works which either require the devices to be worn on the thumb or need multiple devices on different fingers, we only require one ring worn on the index finger.",
+        "We developed a set of machine-learning-based signal-processing pipelines to recognize discrete T2I microgestures and track continuous T2I motion with EF data recorded by EFRing.",
+        "We evaluated the proposed EFRing hardware and the signal-processing algorithms by thorough experiments and user evaluations.",
+        "We demonstrated a set of proof-of-concept applications that could be supported by EFRing."
+      ]
+    },
+    "metadata": {
+      "year": 2023,
+      "status": "published",
+      "collaborators": ["City University of Hong Kong"],
+      "funding": "Research grants and university funding"
+    },
+    "resources": {
+      "source_code": "https://github.com/taizhouchen/EFRing"
+    },
+    "publications":[
+      {
+        "title": "EFRing: Enabling Thumb-to-Index-Finger Microgesture Interaction through Electric Field Sensing using Single Smart Ring",
+        "abstract": "We present EFRing, an index-finger-worn ring-form device for detecting thumb-to-index-finger (T2I) microgestures through the approach of electric-field (EF) sensing. Based on the signal change induced by the T2I motions, we proposed two machine-learning-based data-processing pipelines: one for recognizing/classifying discrete T2I microgestures, and the other for tracking continuous 1D T2I movements. Our experiments on the EFRing microgesture classification showed an average within-user accuracy of 89.5% and an average cross-user accuracy of 85.2%, for 9 discrete T2I microgestures. For the continuous tracking of 1D T2I movements, our method can achieve the mean-square error of 3.5% for the generic model and 2.3% for the personalized model. Our 1D-Fitts'-Law target-selection study shows that the proposed tracking method with EFRing is intuitive and accurate for real-time usage. Lastly, we proposed and discussed the potential applications for EFRing.",
+        "year": 2023,
+        "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 6, Issue 4",
+        "file": "docs/efring.pdf",
+        "link": "https://dl.acm.org/doi/10.1145/3569478",
+        "project_page": "project_template.html?id=12",
+        "authors": ["Taizhou Chen", "Tianpei Li", "Xingyu Yang", "Kening Zhu"]
+      }
+    ],
+    "featured": true 
+  },
+  {
+    "id": 11,
+    "name": "GestOnHMD",
+    "title_short": "Enabling Gesture-based Interaction on Low-cost VR Head-Mounted Display",
+    "image": "images/project_img/gestonhmd.png",
+    "videos":{
+      "demo_video":{
+        "type":"youtube",
+        "url":"https://www.youtube.com/embed/-Pm_daEzG2o?si=nalYub3OKseB_ktb"
+      }
+    },
+    "content": {
+      "description": "Low-cost virtual-reality (VR) head-mounted displays (HMDs) with the integration of smartphones have brought the immersive VR to the masses, and increased the ubiquity of VR. However, these systems are often limited by their poor interactivity. In this paper, we present GestOnHMD, a gesture-based interaction technique and a gesture-classification pipeline that leverages the stereo microphones in a commodity smartphone to detect the tapping and the scratching gestures on the front, the left, and the right surfaces on a mobile VR headset. Taking the Google Cardboard as our focused headset, we first conducted a gesture-elicitation study to generate 150 user-defined gestures with 50 on each surface. We then selected 15, 9, and 9 gestures for the front, the left, and the right surfaces respectively based on user preferences and signal detectability. We constructed a data set containing the acoustic signals of 18 users performing these on-surface gestures, and trained the deep-learning classification pipeline for gesture detection and recognition. Lastly, with the real-time demonstration of GestOnHMD, we conducted a series of online participatory-design sessions to collect a set of user-defined gesture-referent mappings that could potentially benefit from GestOnHMD.",
+      "contributions": [
+        "We present GestOnHMD, a gesture-based interaction technique for mobile VR using the built-in stereo microphones. We trained a deep-learning-based three-step gesture-recognition pipeline, and implemented a real-time prototype of GestOnHMD.",
+        "We proposed a set of user-defined gestures on different surfaces of the Google Cardboard, with the consideration on user preferences and signal detectability.",
+        "Through online participatory design sessions, we derived a set of gesture-referents mappings for a wide range of mobile VR applications."
+      ]
+    },
+    "resources":{
+      "source_code":"https://github.com/taizhouchen/GestOnHMD",
+      "presentation_video":"https://www.youtube.com/watch?v=Zsw1aQisYxs"
+    },
+    "publications":[
+      {
+        "title": "GestOnHMD: Enabling Gesture-based Interaction on Low-cost VR Head-Mounted Display",
+        "abstract": "Low-cost virtual-reality (VR) head-mounted displays (HMDs) with the integration of smartphones have brought the immersive VR to the masses, and increased the ubiquity of VR. However, these systems are often limited by their poor interactivity. In this paper, we present GestOnHMD, a gesture-based interaction technique and a gesture-classification pipeline that leverages the stereo microphones in a commodity smartphone to detect the tapping and the scratching gestures on the front, the left, and the right surfaces on a mobile VR headset. Taking the Google Cardboard as our focused headset, we first conducted a gesture-elicitation study to generate 150 user-defined gestures with 50 on each surface. We then selected 15, 9, and 9 gestures for the front, the left, and the right surfaces respectively based on user preferences and signal detectability. We constructed a data set containing the acoustic signals of 18 users performing these on-surface gestures, and trained the deep-learning classification pipeline for gesture detection and recognition. Lastly, with the real-time demonstration of GestOnHMD, we conducted a series of online participatory-design sessions to collect a set of user-defined gesture-referent mappings that could potentially benefit from GestOnHMD.",
+        "year": 2021,
+        "venue": "IEEE Transactions on Visualization and Computer Graphics (TVCG), Volume: 27, Issue: 5, May 2021",
+        "file": "docs/gestonhmd.pdf",
+        "link": "https://ieeexplore.ieee.org/document/9382928",
+        "project_page": "project_template.html?id=11",
+        "authors": ["Taizhou Chen", "Lantian Xu", "Xianshan Xu", "Kening Zhu"]
+      }
+    ],
+    "featured": false 
+  },
+  {
+    "id": 10,
+    "name": "FritzBot",
+    "title_short": "A Data-Driven Conversational Agent for Physical-Computing System Design",
+    "image": "images/project_img/fritzbot.png",
+    "videos":{
+      "demo_video":{
+        "type":"youtube",
+        "url":"https://www.youtube.com/embed/vvSJ3S_4P5s?si=k5HERsiRJu_JghxZ"
+      }
+    },
+    "content":{
+      "description":"Creating physical-computing systems, especially selecting correct electronic components, assembling the circuit, and implementing the program, can be challenging for novice users. In this paper, we present FritzBot, a data-driven conversational agent supporting novice users on creating physical-computing systems through natural-language interaction. FritzBot is built upon the structure of a BiLSTM-CRF (bi-directional Long Short-term Memory Network and Conditional Random Field) neural network, as a plug-in for Fritzing. The neural network is trained on a lexical circuit-event database derived from 152 students’ reports on their physical-computing course projects. By processing the user’s textual description on his/her physical-computing idea, FritzBot can extract the causal relationships between the input and the output events, identify the corresponding electronic components, and generate the Arduino-based circuit and the code along with the step-by-step construction guidelines. Our user study shows that compared to the original Arduino software and the circuit-autocompletion software available in the commercial market, FritzBot significantly shortens the time spent, reduces the perceived workload, and enhances the satisfaction/joy for inexperienced users on designing and prototyping physical-computing systems.",
+      "contributions":[
+        "We construct a lexical circuit-event database for modeling novice users’ natural-language behaviors on physical-computing system design and development.",
+        "For proof of concept, we develop FrtitzBot, a BiLSTM-CRF-based system leveraging natural-language interaction for designing and creating Arduino-based physical-computing systems.",
+        "We conduct a user study showing the effectiveness of FritzBot on supporting novice users’ physical-computing task through natural-language interaction."
+      ]
+    },
+    "resources":{
+      "source_code": "https://github.com/taizhouchen/FritzBot"
+    },
+    "publications":[
+      {
+        "title": "FritzBot: A Data-Driven Conversational Agent for Physical-Computing System Design",
+        "abstract": "Creating physical-computing systems, especially selecting correct electronic components, assembling the circuit, and implementing the program, can be challenging for novice users. In this paper, we present FritzBot, a data-driven conversational agent supporting novice users on creating physical-computing systems through natural-language interaction. FritzBot is built upon the structure of a BiLSTM-CRF (bi-directional Long Short-term Memory Network and Conditional Random Field) neural network, as a plug-in for Fritzing. The neural network is trained on a lexical circuit-event database derived from 152 students’ reports on their physical-computing course projects. By processing the user’s textual description on his/her physical-computing idea, FritzBot can extract the causal relationships between the input and the output events, identify the corresponding electronic components, and generate the Arduino-based circuit and the code along with the step-by-step construction guidelines. Our user study shows that compared to the original Arduino software and the circuit-autocompletion software available in the commercial market, FritzBot significantly shortens the time spent, reduces the perceived workload, and enhances the satisfaction/joy for inexperienced users on designing and prototyping physical-computing systems.",
+        "year": 2021,
+        "venue": "International Journal of Human-Computer Studies (IJHCS), Volume 155, November 2021, 102699",
+        "file": "docs/fritzbot.pdf",
+        "link": "https://www.sciencedirect.com/science/article/abs/pii/S1071581921001178",
+        "project_page": "project_template.html?id=10",
+        "authors": ["Taizhou Chen", "Lantian Xu", "Kening Zhu"]
+      }
+    ],
+    "featured": false  
+  },
+  {
+    "id": 9,
+    "name": "PickSense",
+    "title_short": "Deep-Learning based Unobtrusive Handedness Prediction for One-handed Smartphone Interaction",
+    "image": "images/project_img/picksense.png",
+    "videos":{
+      "demo_video":{
+        "type":"youtube",
+        "url":"https://www.youtube.com/embed/dqmzXbwXGYc?si=Fb6asrigHNMN8Ahn"
+      }
+    },
+    "content":{
+      "description":"The handedness (i.e. the side of the holding and operating hand) is an important contextual information to optimise the one-handed smartphone interaction. In this paper, we present a deep-learning-based technique for unobtrusive handedness prediction in one-handed smartphone interaction. Our approach is built upon a multilayer LSTM (Long-Short-Term Memory) neural network, and processes the built-in motion-sensor data of the phone in real time. Compared to the existing approaches, our approach eliminates the need of extra user actions (e.g., on-screen tapping and swiping), and predicts the handedness based on the picking-up action and the holding posture before the user performs any operation on the screen. Our approach is able to predict the handedness when a user is sitting, standing, and walking at an accuracy of 97.4%, 94.6%, and 92.4%, respectively. We also show that our approach is robust to the turbulent noise with an average accuracy of 94.6% for the situations of users in the transportation tools (e.g., bus, train, and scooter). Furthermore, the presented approach can classify users’ real-life single-handed smartphone usage into left- and right-handed with an average accuracy of 89.2%.",
+      "contributions":[
+        "We construct the data set containing 989,597 frames of motion-sensor data of one-handed smartphone usage with 13 participants. The statistical analysis on the data set reveals the user-behavioral patterns of smartphone usage by different hands.",
+        "We train the LSTM-based deep neural network trained by the collected data set, for handedness detection in one-handed smartphone interaction.",
+        "We validate the performance of the presented approach with the data of users taking transportation tools and users’ real-life smartphone usage."
+      ]
+    },
+    "publications":[
+      {
+        "title": "Deep-Learning based Unobtrusive Handedness Prediction for One-handed Smartphone Interaction",
+        "abstract": "The handedness (i.e. the side of the holding and operating hand) is an important contextual information to optimise the one-handed smartphone interaction. In this paper, we present a deep-learning-based technique for unobtrusive handedness prediction in one-handed smartphone interaction. Our approach is built upon a multilayer LSTM (Long-Short-Term Memory) neural network, and processes the built-in motion-sensor data of the phone in real time. Compared to the existing approaches, our approach eliminates the need of extra user actions (e.g., on-screen tapping and swiping), and predicts the handedness based on the picking-up action and the holding posture before the user performs any operation on the screen. Our approach is able to predict the handedness when a user is sitting, standing, and walking at an accuracy of 97.4%, 94.6%, and 92.4%, respectively. We also show that our approach is robust to the turbulent noise with an average accuracy of 94.6% for the situations of users in the transportation tools (e.g., bus, train, and scooter). Furthermore, the presented approach can classify users’ real-life single-handed smartphone usage into left- and right-handed with an average accuracy of 89.2%.",
+        "year": 2022,
+        "venue": "Multimodal Interaction and IoT Applications (MTA)",
+        "file": "docs/picksense.pdf",
+        "link": "https://link.springer.com/article/10.1007/s11042-021-11844-6",
+        "project_page": "project_template.html?id=9",
+        "authors": ["Taizhou Chen", "Ming Chieh Yang", "Kening Zhu"]
+      }
+    ],
+    "featured": false  
+  },
+  {
+    "id": 8,
+    "name": "CodeRhythm",
+    "title_short": "A Tangible Programming Toolkit for Visually Impaired Students",
+    "image": "images/project_img/coderhythm.png",
+    "videos":{
+      "demo_video":{
+        "type":"youtube",
+        "url":"https://www.youtube.com/embed/EsHXHvMFLBE?si=U2yoz32sbrl9jh8S"
+      }
+    },
+    "content":{
+      "description":"Block-based programming toolkits are widely used to nurture computational literacy in the young generation. However, they may not be suitable for young blind and visually impaired (BVI) students as these toolkits mostly rely on visual cues in the whole manipulation process. We present CodeRhythm, a tangible programming toolkit for engaging BVI users to learn basic programming concepts by creating simple melodies."
+    },
+    "publications":[
+      {
+        "title": "CodeRhythm: A Tangible Programming Toolkit for Visually Impaired Students",
+        "abstract": "Block-based programming toolkits are widely used to nurture computational literacy in the young generation. However, they may not be suitable for young blind and visually impaired (BVI) students as these toolkits mostly rely on visual cues in the whole manipulation process. We present CodeRhythm, a tangible programming toolkit for engaging BVI users to learn basic programming concepts by creating simple melodies.",
+        "year": 2020,
+        "venue": "Chinese CHI '20",
+        "file": "docs/coderhythm.pdf",
+        "link": "https://dl.acm.org/doi/10.1145/3403676.3403683",
+        "project_page": "project_template.html?id=8",
+        "authors": ["Zhiyi Rong", "Ngo Fung Chan", "Taizhou Chen", "Kening Zhu"]
+      }
+    ],
+    "featured": false  
+  },
+  {
+    "id": 7,
+    "name": "FingerTalkie",
+    "title_short": "Designing a Low-Cost Finger-Worn Device for Interactive Audio Labeling of Tactile Diagrams",
+    "image": "images/project_img/fingertalkie.png",
+    "videos":{
+      "demo_video":{
+        "type":"youtube",
+        "url":"https://www.youtube.com/embed/Xielehm_jqE?si=USHyefhv_ZT8AJFW"
+      }
+    },
+    "content":{
+      "description":"Traditional tactile diagrams for the visually-impaired (VI) use short Braille keys and annotations to provide additional information in separate Braille legend pages. Frequent navigation between the tactile diagram and the annex pages during the diagram exploration results in low efficiency in diagram comprehension. We present the design of FingerTalkie, a finger-worn device that uses discrete colors on a color-tagged tactile diagram for interactive audio labeling of the graphical elements. Through an iterative design process involving 8 VI users, we designed a unique offset point-and-click technique that enables the bimanual exploration of the diagrams without hindering the tactile perception of the fingertips. Unlike existing camera-based and finger-worn audio-tactile devices, FingerTalkie supports one-finger interaction and can work in any lighting conditions without calibration. We conducted a controlled experiment with 12 blind-folded sighted users to evaluate the usability of the device. Further, a focus-group interview with 8 VI users shows their appreciation for the FingerTalkie’s ease of use, support for two-hand exploration, and its potential in improving the efficiency of comprehending tactile diagrams by replacing Braille labels."
+    },
+    "publications":[
+      {
+        "title": "FingerTalkie: Designing a Low-Cost Finger-Worn Device for Interactive Audio Labeling of Tactile Diagrams",
+        "abstract": "Traditional tactile diagrams for the visually-impaired (VI) use short Braille keys and annotations to provide additional information in separate Braille legend pages. Frequent navigation between the tactile diagram and the annex pages during the diagram exploration results in low efficiency in diagram comprehension. We present the design of FingerTalkie, a finger-worn device that uses discrete colors on a color-tagged tactile diagram for interactive audio labeling of the graphical elements. Through an iterative design process involving 8 VI users, we designed a unique offset point-and-click technique that enables the bimanual exploration of the diagrams without hindering the tactile perception of the fingertips. Unlike existing camera-based and finger-worn audio-tactile devices, FingerTalkie supports one-finger interaction and can work in any lighting conditions without calibration. We conducted a controlled experiment with 12 blind-folded sighted users to evaluate the usability of the device. Further, a focus-group interview with 8 VI users shows their appreciation for the FingerTalkie’s ease of use, support for two-hand exploration, and its potential in improving the efficiency of comprehending tactile diagrams by replacing Braille labels.",
+        "year": 2020,
+        "venue": "International Conference on Human-Computer Interaction (HCII), 2020",
+        "file": "docs/fingertalkie.pdf",
+        "link": "https://dl.acm.org/doi/10.1007/978-3-030-49062-1_32",
+        "project_page": "project_template.html?id=7",
+        "authors": ["Arshad Nasser", "Taizhou Chen", "Can Liu", "Kening Zhu", "P. V. M. Rao"]
+      }
+    ],
+    "featured": false  
+  },
+  {
+    "id": 6,
+    "name": "DupRobo",
+    "title_short": "Interactive Robotic Autocompletion of Physical Block-based Repetitive Structure",
+    "image": "images/project_img/duprobo.png",
+    "videos":{
+      "demo_video":{
+        "type":"youtube",
+        "url":"https://www.youtube.com/embed/L7-37gPK4Ck?si=0cnZVNlQ9RaZUZcZ"
+      }
+    },
+    "content":{
+      "description": "In this paper, we present DupRobo, an interactive robotic platform for tangible block-based design and construction. DupRobo supported user-customizable exemplar, repetition control, and tangible autocompletion, through the computer-vision and the robotic techniques. With DupRobo, we aim to reduce users’ workload in repetitive block-based construction, yet preserve the direct manipulatability and the intuitiveness in tangible model design, such as product design and architecture design. Through a user study with 12 participants, we found that DupRobo significantly reduced participants’ perceived physical demand, overall efforts, and frustration in the process of block-based structure design and construction, compared to the situation without DupRobo. In addition, the participants rated DupRobo as easy to learn and use."
+    },
+    "publications":[
+      {
+        "title": "DupRobo: Interactive Robotic Autocompletion of Physical Block-based Repetitive Structure",
+        "abstract": "In this paper, we present DupRobo, an interactive robotic platform for tangible block-based design and construction. DupRobo supported user-customizable exemplar, repetition control, and tangible autocompletion, through the computer-vision and the robotic techniques. With DupRobo, we aim to reduce users’ workload in repetitive block-based construction, yet preserve the direct manipulatability and the intuitiveness in tangible model design, such as product design and architecture design. Through a user study with 12 participants, we found that DupRobo significantly reduced participants’ perceived physical demand, overall efforts, and frustration in the process of block-based structure design and construction, compared to the situation without DupRobo. In addition, the participants rated DupRobo as easy to learn and use.",
+        "year": 2019,
+        "venue": "Human-Computer Interaction - INTERACT 2019",
+        "file": "docs/duprobo.pdf",
+        "link": "https://link.springer.com/chapter/10.1007/978-3-030-29384-0_29",
+        "project_page": "project_template.html?id=6",
+        "authors": ["Taizhou Chen", "Yi-Shiun Wu", "Kening Zhu"]
+      }
+    ],
+    "featured": false  
+  },
+  {
+    "id": 5,
+    "name": "ThermalRing",
+    "title_short": "A sense of ice and fire: Exploring thermal feedback with multiple thermoelectric-cooling elements on a smart ring",
+    "image": "images/project_img/thermalring.jpg",
+    "videos":{
+      "demo_video":{
+        "type":"youtube",
+        "url":"https://www.youtube.com/embed/OkndI-365CY?si=FFAY3WCe579TIFwI"
+      }
+    },
+    "content":{
+      "description": "In this paper, we investigate the use of thermal feedback on a smart ring with multiple thermoelectric coolers (TECs). Our prototype aims to offer an increased expressivity with spatial thermal patterns. Our pilot study showed that users could reliably recognize 4 single points with cold stimulation (97.2% accuracy). In the following two main experiments, we investigated the use of 4 in-ring TECs to achieve two categories of spatial thermal patterns by combining two neighboring or opposite elements. The results revealed three neighboring patterns and five opposite patterns that could be reliably recognized by the participants with the average accuracy above 80%. A follow-up experiment suggested that it could be confusing for users by combining four single-spot cold stimulations, three neighboring patterns, and five opposite patterns in the same group (average accuracy: 50.2%). We conducted two more follow-up studies, showing that the participants could identify the thermal patterns in the combined group of the single-spot cold stimulations and the neighboring patterns (average accuracy: 85.3%), and the combined group of the single-spot cold stimulations and the opposite patterns (average accuracy: 89.3%). We further conducted three design workshops, involving six product/interface designers, to investigate the potential applications of these thermal patterns. The designers suggested different mappings between the given thermal patterns and the information, including direction cueing through single-spot and neighboring patterns, artifact comparison through opposite patterns, notifying incoming calls/messages from different persons with different locations and temperatures of the TECs, etc. This demonstrated interest in spatial thermal patterns in smart rings not only for notifications but also for various everyday activities.",
+      "contributions":[
+        "Working prototypes of smart rings embedded with multiple TECs, of various sizes, which can be used with the thermal patterns described in the paper.",
+        "The results of our empirical studies on user perception of spatial thermal patterns on the nger using a smart ring.",
+        "A set of thermal patterns that leverage the nger’s natural sensitivity to temperature to allow reliable recognition of single and combinational patterns from the smart ring.",
+        "A set of designer-elicited application scenarios that leverages the proposed set of in-ring thermal patterns."
+      ]
+    },
+    "publications":[
+      {
+        "title": "A sense of ice and fire: Exploring thermal feedback with multiple thermoelectric-cooling elements on a smart ring",
+        "abstract": "In this paper, we investigate the use of thermal feedback on a smart ring with multiple thermoelectric coolers (TECs). Our prototype aims to offer an increased expressivity with spatial thermal patterns. Our pilot study showed that users could reliably recognize 4 single points with cold stimulation (97.2% accuracy). In the following two main experiments, we investigated the use of 4 in-ring TECs to achieve two categories of spatial thermal patterns by combining two neighboring or opposite elements. The results revealed three neighboring patterns and five opposite patterns that could be reliably recognized by the participants with the average accuracy above 80%. A follow-up experiment suggested that it could be confusing for users by combining four single-spot cold stimulations, three neighboring patterns, and five opposite patterns in the same group (average accuracy: 50.2%). We conducted two more follow-up studies, showing that the participants could identify the thermal patterns in the combined group of the single-spot cold stimulations and the neighboring patterns (average accuracy: 85.3%), and the combined group of the single-spot cold stimulations and the opposite patterns (average accuracy: 89.3%). We further conducted three design workshops, involving six product/interface designers, to investigate the potential applications of these thermal patterns. The designers suggested different mappings between the given thermal patterns and the information, including direction cueing through single-spot and neighboring patterns, artifact comparison through opposite patterns, notifying incoming calls/messages from different persons with different locations and temperatures of the TECs, etc. This demonstrated interest in spatial thermal patterns in smart rings not only for notifications but also for various everyday activities.",
+        "year": 2019,
+        "venue": "International Journal of Human-Computer Studies (IJHCS), Volume 130, October 2019, Pages 234-247",
+        "file": "docs/thermalring.pdf",
+        "link": "https://www.sciencedirect.com/science/article/abs/pii/S1071581919300862",
+        "project_page": "project_template.html?id=5",
+        "authors": ["Kening Zhu", "Simon Perrault", "Taizhou Chen", "Shaoyu Cai", "Roshan Lalintha Peiris"]
+      }
+    ],
+    "featured": false  
+  },
+  {
+    "id": 4,
+    "name": "HapTwist",
+    "title_short": "Creating Interactive Haptic Proxies in Virtual Reality Using Low-cost Twistable Artefacts",
+    "image": "images/project_img/haptwist.png",
+    "videos":{
+      "demo_video":{
+        "type":"youtube",
+        "url":"https://www.youtube.com/embed/SzRrm570jZA?si=YZQJS6UWblZll6f2"
+      }
+    },
+    "content":{
+      "description": "In this paper, we present a series of studies on using Rubik's Twist, a type of low-cost twistable artefact, to create haptic proxies for various hand-graspable VR objects. Our pilot studies validated the feasibility and effectiveness of Rubik's-Twist-based haptic proxies. The pilot results also revealed user challenges in the physical shape creation, motivating the development of the HapTwist toolkit. The toolkit consists of the shape-generation algorithm, the software interface for shape-construction guidance and interaction authoring, and the hardware modules for constructing interactive haptic proxies. The user studies showed that HapTwist was easy to learn and use, and it significantly improved user performance in creating interactive haptic proxies with Rubik's Twist. Furthermore, HapTwist-generated haptic proxies achieved similar VR experience as the real objects.",
+      "contributions":[
+        "Empirical study with insights into the feasibility of using Rubik's Twist as haptic proxy for VR.",
+        "The HapTwist toolkit that provides intuitive software interface and hardware components to facilitate the creation of interactive haptic proxies for VR.",
+        "User study of the HapTwist toolkit validating its overall effectiveness and support on haptic proxy creation."
+      ]
+    },
+    "publications":[
+      {
+        "title": "HapTwist: Creating Interactive Haptic Proxies in Virtual Reality Using Low-cost Twistable Artefacts",
+        "abstract": "In this paper, we present a series of studies on using Rubik's Twist, a type of low-cost twistable artefact, to create haptic proxies for various hand-graspable VR objects. Our pilot studies validated the feasibility and effectiveness of Rubik's-Twist-based haptic proxies. The pilot results also revealed user challenges in the physical shape creation, motivating the development of the HapTwist toolkit. The toolkit consists of the shape-generation algorithm, the software interface for shape-construction guidance and interaction authoring, and the hardware modules for constructing interactive haptic proxies. The user studies showed that HapTwist was easy to learn and use, and it significantly improved user performance in creating interactive haptic proxies with Rubik's Twist. Furthermore, HapTwist-generated haptic proxies achieved similar VR experience as the real objects.",
+        "year": 2019,
+        "venue": "CHI '19: Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems",
+        "file": "docs/haptwist.pdf", 
+        "link": "https://dl.acm.org/doi/10.1145/3275495.3275504",
+        "project_page": "project_template.html?id=4",
+        "authors": ["Kening Zhu", "Taizhou Chen", "Feng Han", "Yi-Shiun Wu"]
+      },
+      {
+        "title": "HapTwist: Creating Interactive Haptic Proxies in Virtual Reality Using Low-cost Twistable Artefacts",
+        "abstract": "In recent years, virtual reality (VR) with head-mounted displays is gaining an increasing amount of attention in the consumer market, with highly realistic visual and audio contents. However, it is still challenging to use these VR devices with pre-fabricated shapes of controllers to simulate realistic haptic/kinesthetic information (i.e. the shape, the size, and the weight) of the virtual objects.",
+        "year": 2018,
+        "venue": "SA '18: SIGGRAPH Asia 2018 Virtual & Augmented Reality",
+        "file": "docs/demo_haptwist.pdf",
+        "link": "https://dl.acm.org/doi/10.1145/3275495.3275504",
+        "project_page": "project_template.html?id=4",
+        "authors": ["Kening Zhu", "Taizhou Chen", "Shaoyu Cai", "Feng Han", "Yi-Shiun Wu"]
+      }
+    ],
+    "featured": false  
+  },
+  {
+    "id": 3,
+    "name": "VRCue",
+    "title_short": "Investigating Different Modalities of Directional Cues for Multi-task Visual-Searching Scenario in Virtual Reality",
+    "image": "images/project_img/demo_vrcue.png",
+    "videos":{
+      "demo_video":{
+        "type":"youtube",
+        "url":"https://www.youtube.com/embed/BmhYP6LmVb0?si=7qumB-dx90kTsMiH"
+      },
+      "presentation_video":{
+        "type":"youtube",
+        "url":"https://www.youtube.com/embed/kKJIxaO5Vjc?si=kHrQo3FX1h4QqMUq"
+      }
+    },
+    "content":{
+      "description": "In this study, we investigated and compared the effectiveness of visual, auditory, and vibrotactile directional cues on multiple simultaneous visual-searching tasks in an immersive virtual environment. Effectiveness was determined by the task-completion time, the range of head movement, the accuracy of the identification task, and the perceived workload. Our experiment showed that the on-head vibrotactile display can effectively guide users towards virtual visual targets, without affecting their performance on the other simultaneous tasks, in the immersive VR environment. These results can be applied to numerous applications (e.g. gaming, driving, and piloting) in which there are usually multiple simultaneous tasks, and the user experience and performance could be vulnerable."
+    },
+    "publications":[
+      {
+        "title": "Investigating Different Modalities of Directional Cues for Multi-task Visual-Searching Scenario in Virtual Reality",
+        "abstract": "In this study, we investigated and compared the effectiveness of visual, auditory, and vibrotactile directional cues on multiple simultaneous visual-searching tasks in an immersive virtual environment. Effectiveness was determined by the task-completion time, the range of head movement, the accuracy of the identification task, and the perceived workload. Our experiment showed that the on-head vibrotactile display can effectively guide users towards virtual visual targets, without affecting their performance on the other simultaneous tasks, in the immersive VR environment. These results can be applied to numerous applications (e.g. gaming, driving, and piloting) in which there are usually multiple simultaneous tasks, and the user experience and performance could be vulnerable.",
+        "year": 2018,
+        "venue": "VRST '18: Proceedings of the 24th ACM Symposium on Virtual Reality Software and Technology",
+        "file": "docs/vrcue.pdf",
+        "link": "https://dl.acm.org/doi/10.1145/3281505.3281516",
+        "project_page": "project_template.html?id=3",
+        "authors": ["Taizhou Chen", "Yi-Shiun Wu", "Kening Zhu"]
+      },
+      {
+        "title": "The Golden Guardian: Multi-Sensory Iimmersive Gaming through Multi-Sensory Spatial Cues",
+        "abstract": "We present The Golden Guardian, a Virtual Reality (VR) game using multiple senses for spatial cue for creating an immersive game experience. We implemented visual feedback, audio feedback, and haptic feedback that delivering different cues in different situations in the virtual world.",
+        "year": 2017,
+        "venue": "SA '17: SIGGRAPH Asia 2018 Virtual & Augmented Reality",
+        "file": "docs/demo_vrcue.pdf",
+        "link": "https://dl.acm.org/doi/10.1145/3139468.3139473",
+        "project_page": "project_template.html?id=3",
+        "authors": ["Taizhou Chen", "Junyu Liu", "Kening Zhu", "Tamas Waliczky"]
+      }
+    ],
+    "featured": false  
+  }
+]
+

@@ -1,0 +1,150 @@
+[
+  {
+    "id": 11,
+    "date": "April 29, 2025",
+    "title": "Attend CHI 2025",
+    "summary": "We attended CHI 2025 at Yokohama, Japan and presented two papers!",
+    "content": [
+      "We attended CHI 2025 at Yokohama, Japan! Two papers were presented.\"Augmenting Tablet Typing Experience by Integrating Key-Press Finger Contact Types as Input\" and \"AirThumb: Supporting Mid-air Thumb Gestures with Built-in Sensors on Commodity Smartphones\". Please check our project pages for more details!"
+    ],
+    "links": [
+      {
+        "name": "Augmenting Typing Experience",
+        "link": "project_pages/project_tipcase.html"
+      },
+      {
+        "name": "Airthumb",
+        "link": "project_pages/project_airthumb.html"
+      }
+    ],
+    "image": "",
+    "hasImage": false
+  },
+  {
+    "id": 10,
+    "date": "March 25, 2025",
+    "title": "Paper Acceptance",
+    "summary": "Two papers were accepted by CHI 2025 LBW! Congrats to Yantao and Tianrui!",
+    "content": [
+      "Two papers were accepted by CHI 2025 LBW! Congrats to Yantao and Tianrui!"
+    ],
+    "links": [],
+    "image": "",
+    "hasImage": false
+  },
+  {
+    "id": 9,
+    "date": "January 13, 2025",
+    "title": "Visit Shenzhen University",
+    "summary": "We Visit VCC Lab at Shenzhen University! Nice talk with Zhida and Pedro!",
+    "content": [
+      "We Visit VCC Lab at Shenzhen University! Nice talk with Zhida and Pedro!"
+    ],
+    "links": [],
+    "image": "",
+    "hasImage": false
+  },
+  {
+    "id": 8,
+    "date": "November 28, 2024",
+    "title": "New Research Grant Awarded",
+    "summary": "We got a grant from @Natural Science Foundation of Guangdong Province - General Fund with 100,000 RMB!",
+    "content": [
+      "We got a grant from @Natural Science Foundation of Guangdong Province - General Fund with 100,000 RMB!",
+      "Project Title: Low-Tethered Gesture-Based Interaction Techniques for Mobile VR Device"
+    ],
+    "links": [],
+    "image": "",
+    "hasImage": false
+  },
+  {
+    "id": 7,
+    "date": "November 23, 2024",
+    "title": "Attended Chinese CHI 2024",
+    "summary": "Attended Chinese CHI 2024 at SUSTech!",
+    "content": [
+      "Attended Chinese CHI 2024 at SUSTech!"
+    ],
+    "links": [],
+    "image": "",
+    "hasImage": false
+  },
+  {
+    "id": 6,
+    "date": "September 1, 2024",
+    "title": "Welcoming New Master's Student",
+    "summary": "Weirong Luo and Xiyun Luo join us as master students. Welcomes!",
+    "content": [
+      "Weirong Luo and Xiyun Luo join us as master students. Welcomes!"
+    ],
+    "links": [],
+    "image": "",
+    "hasImage": false
+  },
+  {
+    "id": 5,
+    "date": "August 23, 2024",
+    "title": "New Research Grant Awarded",
+    "summary": "We got a grant from @Natural Science Foundation of China - Young Scientists Fund with 300,000 RMB!",
+    "content": [
+      "We got a grant from @Natural Science Foundation of China - Young Scientists Fund with 300,000 RMB!",
+      "Project Title: Ring-Based Interaction Techniques Through Electric-Field Sensing"
+    ],
+    "links": [],
+    "image": "",
+    "hasImage": false
+  },
+  {
+    "id": 4,
+    "date": "August 5, 2024",
+    "title": "Visit Monash University",
+    "summary": "Dr. Taizhou Chen Visit Monash University! He gave talks at Sensi Lab, Embodied Visualisation Group, and Exertion Games Lab!",
+    "content": [
+      "Dr. Taizhou Chen Visit Monash University! He gave talks at Sensi Lab, Embodied Visualisation Group, and Exertion Games Lab!"
+    ],
+    "links":[
+      {
+        "name": "Read More",
+        "link": "https://sensilab.monash.edu/forums/multimodal-embodied-user-interface-for-natural-hci/"
+      }
+    ],
+    "image": "",
+    "hasImage": false
+  },
+  {
+    "id": 3,
+    "date": "July 1, 2024",
+    "title": "PC Member Serving",
+    "summary": "Dr. Taizhou Chen served as a PC Member at SIGGRAPH Aisa eTech 2025",
+    "content": [
+      "Dr. Taizhou Chen served as a PC Member at SIGGRAPH Aisa eTech 2025"
+    ],
+    "links": [],
+    "image": "images/news-student.jpg",
+    "hasImage": false
+  },
+  {
+    "id": 2,
+    "date": "January 8, 2024",
+    "title": "Attended Scalable HCI Symposium 2024",
+    "summary": "We attended Scalable HCI Symposium 2024 at SUSTech!",
+    "content": [
+      "We attended Scalable HCI Symposium 2024 at SUSTech!"
+    ],
+    "links": [],
+    "image": "",
+    "hasImage": false
+  },
+  {
+    "id": 1,
+    "date": "September 1, 2023",
+    "title": "Welcoming New Master's Student",
+    "summary": "Yantao Liu join us as a master student. Welcomes!",
+    "content": [
+      "Yantao Liu join us as a master student. Welcomes!"
+    ],
+    "links": [],
+    "image": "",
+    "hasImage": false
+  }
+]

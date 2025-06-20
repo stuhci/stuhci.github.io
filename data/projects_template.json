@@ -1,0 +1,57 @@
+[
+  {
+    "id": 12,
+    "name": "EFRing",
+    "title_short": "Enabling Thumb-to-Index-Finger Microgesture Interaction through Electric Field Sensing using Single Smart Ring",
+    "image": "images/project_img/efring.jpg",
+    "videos": {
+      "demo_video": {
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/gnCZrqTkTjU?si=PbbsiZTTqp1iK2ue",
+        "title": "EFRing Demo Video",
+        "description": "Demonstration of EFRing's thumb-to-index-finger microgesture detection capabilities"
+      }
+    },
+    "images": {
+      "thumbnail": "images/project_img/efring.jpg",
+      "gallery": [
+        {
+          "src": "images/project_img/efring.jpg",
+          "alt": "EFRing hardware prototype",
+          "caption": "EFRing hardware prototype showing the ring-form device"
+        }
+      ]
+    },
+    "content": {
+      "description": "We present EFRing, an index-finger-worn ring-form device for detecting thumb-to-index-finger (T2I) microgestures through the approach of electric-field (EF) sensing. Based on the signal change induced by the T2I motions, we proposed two machine-learning-based data-processing pipelines: one for recognizing/classifying discrete T2I microgestures, and the other for tracking continuous 1D T2I movements. Our experiments on the EFRing microgesture classification showed an average within-user accuracy of 89.5% and an average cross-user accuracy of 85.2%, for 9 discrete T2I microgestures. For the continuous tracking of 1D T2I movements, our method can achieve the mean-square error of 3.5% for the generic model and 2.3% for the personalized model. Our 1D-Fitts'-Law target-selection study shows that the proposed tracking method with EFRing is intuitive and accurate for real-time usage. Lastly, we proposed and discussed the potential applications for EFRing.",
+      "contributions": [
+        "We developed EFRing, a ring-form device for capturing the EF signals induced by the T2I microgestures. Compared to the existing works which either require the devices to be worn on the thumb or need multiple devices on different fingers, we only require one ring worn on the index finger.",
+        "We developed a set of machine-learning-based signal-processing pipelines to recognize discrete T2I microgestures and track continuous T2I motion with EF data recorded by EFRing.",
+        "We evaluated the proposed EFRing hardware and the signal-processing algorithms by thorough experiments and user evaluations.",
+        "We demonstrated a set of proof-of-concept applications that could be supported by EFRing."
+      ]
+    },
+    "metadata": {
+      "year": 2023,
+      "status": "published",
+      "collaborators": ["City University of Hong Kong"],
+      "funding": "Research grants and university funding"
+    },
+    "resources": {
+      "source_code": "https://github.com/taizhouchen/EFRing"
+    },
+    "publications":[
+      {
+        "title": "EFRing: Enabling Thumb-to-Index-Finger Microgesture Interaction through Electric Field Sensing using Single Smart Ring",
+        "abstract": "We present EFRing, an index-finger-worn ring-form device for detecting thumb-to-index-finger (T2I) microgestures through the approach of electric-field (EF) sensing. Based on the signal change induced by the T2I motions, we proposed two machine-learning-based data-processing pipelines: one for recognizing/classifying discrete T2I microgestures, and the other for tracking continuous 1D T2I movements. Our experiments on the EFRing microgesture classification showed an average within-user accuracy of 89.5% and an average cross-user accuracy of 85.2%, for 9 discrete T2I microgestures. For the continuous tracking of 1D T2I movements, our method can achieve the mean-square error of 3.5% for the generic model and 2.3% for the personalized model. Our 1D-Fitts'-Law target-selection study shows that the proposed tracking method with EFRing is intuitive and accurate for real-time usage. Lastly, we proposed and discussed the potential applications for EFRing.",
+        "year": 2023,
+        "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), Volume 6, Issue 4",
+        "file": "docs/efring.pdf",
+        "link": "https://dl.acm.org/doi/10.1145/3569478",
+        "project_page": "project_template.html?id=12",
+        "authors": ["Taizhou Chen", "Tianpei Li", "Xingyu Yang", "Kening Zhu"]
+      }
+    ],
+    "featured": true 
+  }
+]

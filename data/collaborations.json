@@ -1,0 +1,23 @@
+[
+  {
+    "name": "CityU",
+    "image": "images/logo/CityU_logo.svg.png",
+    "link": "https://www.cityu.edu.hk/"
+  },
+  {
+    "name": "MEI Lab",
+    "image": "images/logo/mei_logo.png",
+    "link": "https://meilab-hk.github.io/"
+  },
+  {
+    "name": "Huawei",
+    "image": "images/logo/huawei_logo.png",
+    "link": "https://www.huawei.com/"
+  },
+  {
+    "name": "Shenzhen University VCC Ceter",
+    "image": "images/logo/vcc.png",
+    "link": "https://vcc.tech/"
+  }
+]
+
