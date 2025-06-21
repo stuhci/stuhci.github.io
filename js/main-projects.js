@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Create link element
       const linkElement = document.createElement('a');
       linkElement.className = 'card-link';
-      linkElement.href = project.project_page;
+      linkElement.href = `project_template.html?id=${project.id}`;
       linkElement.textContent = 'Learn More →';
       
       // Assemble the card
