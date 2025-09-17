@@ -1,5 +1,27 @@
 [
   {
+    "id": 13,
+    "date": "September 1, 2025",
+    "title": "Welcoming New Master's Student",
+    "summary": "Jianxin Wei, Xiangjun Fang, Siting Li, and Jiale Wu join us as master students. Welcomes!",
+    "content": [
+      "Jianxin Wei, Xiangjun Fang, Siting Li, and Jiale Wu join us as master students. Welcomes!"
+    ],
+    "image": "",
+    "hasImage": false
+  },
+  {
+    "id": 12,
+    "date": "July, 2025",
+    "title": "PC Member Serving",
+    "summary": "Dr. Taizhou Chen served as a PC Member at SIGGRAPH Aisa eTech 2026!",
+    "content": [
+      "Dr. Taizhou Chen served as a PC Member at SIGGRAPH Aisa eTech 2026!"
+    ],
+    "image": "",
+    "hasImage": false
+  },
+  {
     "id": 11,
     "date": "April 29, 2025",
     "title": "Attend CHI 2025",

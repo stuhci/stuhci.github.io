@@ -15,7 +15,7 @@
         "type": "Graduate Students",
         "title": "Master's Students",
         "position": "Fall, 2023",
-        "email": "ytliu@stu.edu.cn",
+        "email": "",
         "image": "images/profile_img/yantaoliu.png",
         "link": ""
     },
@@ -25,7 +25,7 @@
         "type": "Graduate Students",
         "title": "Master's Students",
         "position": "Fall, 2024",
-        "email": "wrluo@stu.edu.cn",
+        "email": "",
         "image": "images/profile_img/weirongluo.png",
         "link": ""
     },
@@ -35,18 +35,8 @@
         "type": "Graduate Students",
         "title": "Master's Students",
         "position": "Fall, 2024",
-        "email": "xbluo@stu.edu.cn",
-        "image": "images/profile_img/xiyunluo.png",
-        "link": ""
-    },
-    {
-        "id": 6,
-        "name": "Kai Chen",
-        "type": "Intern",
-        "title": "Undergraduate Students",
-        "position": "Bachelor's Intern",
         "email": "",
-        "image": "images/profile_img/kaichen.jpg",
+        "image": "images/profile_img/xiyunluo.png",
         "link": ""
     },
     {
@@ -56,7 +46,7 @@
         "title": "Master's Students",
         "position": "Fall, 2025",
         "email": "",
-        "image": "",
+        "image": "images/profile_img/jianxinwei.jpg",
         "link": ""
     },
     {
@@ -66,7 +56,17 @@
         "title": "Master's Students",
         "position": "Fall, 2025",
         "email": "",
-        "image": "",
+        "image": "images/profile_img/xiangjunfang.jpg",
+        "link": ""
+    },
+    {
+        "id": 6,
+        "name": "Kai Chen",
+        "type": "Alumni",
+        "title": "",
+        "position": "Now master student at Shenzhen University",
+        "email": "",
+        "image": "images/profile_img/kaichen.jpg",
         "link": ""
     },
     {
@@ -99,6 +99,26 @@
         "position": "Bachelor's Intern",
         "email": "",
         "image": "images/profile_img/jialeyang.jpg",
+        "link": ""
+    },
+    {
+        "id": 10,
+        "name": "Jiale Wu",
+        "type": "Graduate Students",
+        "title": "Master's Students",
+        "position": "Fall, 2025",
+        "email": "",
+        "image": "images/profile_img/jialewu.jpg",
+        "link": ""
+    },
+    {
+        "id": 11,
+        "name": "Siting Li",
+        "type": "Graduate Students",
+        "title": "Master's Students",
+        "position": "Fall, 2025",
+        "email": "",
+        "image": "images/profile_img/sitingli.jpg",
         "link": ""
     }
 
