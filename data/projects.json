@@ -1,4 +1,66 @@
 [
+
+  {
+    "id": 16,
+    "name": "BadminSense",
+    "title_short": "BadminSense: Enabling Fine-Grained Badminton Strokes Evaluation on Single Smartwatch",
+    "image": "images/project_img/badminsense.png",
+
+    "content": {
+      "description": "Evaluating badminton performance often requires expert coaching, which is rarely accessible for amateur players. We present BadminSense, a smartwatch-based system for fine-grained badminton performance analysis using wearable sensing. Through interviews with experienced badminton players, we identified four system design requirements with three implementation insights that guide the development of BadminSense. We then collected a badminton strokes dataset on 12 experienced badminton amateurs and annotated it with fine-grained labels, including stroke type, expert-assessed stroke rating, and shuttle impact location. Built on this dataset, BadminSense segments and classifies strokes, predicts stroke quality, and estimates shuttle impact location using vibration signal from an off-the-shelf smartwatch. Our evaluations show that BadminSense achieves a stroke classification accuracy of 91.43%, an average quality rating error of 0.438, and an average impact location estimation error of 12.9%. A real-world usability study further demonstrates BadminSense’s potential to provide reliable and meaningful support for daily badminton practice.",
+      "contributions":[
+        "We present a formative exploration that identifies requirements and guidelines for designing a badminton skill analysis and training system for a smartwatch.",
+        "We construct and open-source a dataset comprising 848 badminton strokes, each with expert-labeled action quality and impact location",
+        "We develop a real-time system for analyzing badminton stroke-level performance skills and evaluation on an off-the-shelf smartwatch.",
+        "We conduct a usability study highlighting the insights and benefits of our proposed system."
+      ]
+    },
+    
+    "publications":[
+      {
+        "title": "BadminSense: Enabling Fine-Grained Badminton Strokes Evaluation on Single Smartwatch",
+        "abstract": "Evaluating badminton performance often requires expert coaching, which is rarely accessible for amateur players. We present BadminSense, a smartwatch-based system for fine-grained badminton performance analysis using wearable sensing. Through interviews with experienced badminton players, we identified four system design requirements with three implementation insights that guide the development of BadminSense. We then collected a badminton strokes dataset on 12 experienced badminton amateurs and annotated it with fine-grained labels, including stroke type, expert-assessed stroke rating, and shuttle impact location. Built on this dataset, BadminSense segments and classifies strokes, predicts stroke quality, and estimates shuttle impact location using vibration signal from an off-the-shelf smartwatch. Our evaluations show that BadminSense achieves a stroke classification accuracy of 91.43%, an average quality rating error of 0.438, and an average impact location estimation error of 12.9%. A real-world usability study further demonstrates BadminSense’s potential to provide reliable and meaningful support for daily badminton practice.",
+        "year": 2026,
+        "venue": "CHI '26: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+        "file": "#",
+        "link": "#",
+        "project_page": "project_template.html?id=16",
+        "authors": ["Taizhou Chen", "Kai Chen", "Xingyu Liu", "Pingchun Ke", "Zhida Sun"]
+      }
+    ],
+    "featured": true
+  },
+
+  {
+    "id": 15,
+    "name": "AnkleType",
+    "title_short": "AnkleType: A Hands- and Eyes-free Foot-based Text Entry Technique in Virtual Reality",
+    "image": "images/project_img/ankletype.png",
+
+    "content": {
+      "description": "Virtual Reality (VR) emphasizes immersive experiences, while text entry often requires hands or visual attention, which may disrupt the interaction flows in VR. We present AnkleType, a hand- and eye-free text-entry technique that leverages ankle-based gestures for both standing and sitting situations. We began with two preliminary studies: one investigated the movement range of users’ ankles, and the other elicited user-preferred ankle gestures for text-entry-related operations. The findings of these two studies guided our design of AnkleType. To optimize AnkleType’s keyboard layout for eye-free input, we conducted a user study to capture the users’ natural ankle spatial awareness with a computer-simulated language test. Through a pairwise comparison study, we designed a bipedal input strategy for sitting (BPSit) and a unipedal input strategy for standing (UPStand). Our first in-VR text-entry evaluation with 16 participants demonstrated that our methods could support the average typing speed from 8.99 WPM (BPSit) to 9.13 WPM (UPStand) for our first-time users. We further evaluated our design with a 7-day longitudinal study with twelve participants. Participants achieved an average typing speed of 15.05 WPM with UPStand and 16.70 WPM with BPSit in the visual condition, and 11.15 WPM and 12.87 WPM, respectively in the eyes-free condition.",
+      "contributions":[
+        "We propose a novel ankle-based typing technique that enables hands- and eyes-free text entry in VR, supporting both standing and sitting postures.",
+        "We present an elicitation exploration that identifies users’ preferences to perform ankle-based foot gestures in both standing and sitting conditions.",
+        "We perform a series of empirical explorations to optimize the keyboard layout and the interaction design of the proposed technique across postures.",
+        "We conduct a longitudinal user study to demonstrate the learnability and the effectiveness of the proposed technique."
+      ]
+    },
+    
+    "publications":[
+      {
+        "title": "AnkleType: A Hands- and Eyes-free Foot-based Text Entry Technique in Virtual Reality",
+        "abstract": "Virtual Reality (VR) emphasizes immersive experiences, while text entry often requires hands or visual attention, which may disrupt the interaction flows in VR. We present AnkleType, a hand- and eye-free text-entry technique that leverages ankle-based gestures for both standing and sitting situations. We began with two preliminary studies: one investigated the movement range of users’ ankles, and the other elicited user-preferred ankle gestures for text-entry-related operations. The findings of these two studies guided our design of AnkleType. To optimize AnkleType’s keyboard layout for eye-free input, we conducted a user study to capture the users’ natural ankle spatial awareness with a computer-simulated language test. Through a pairwise comparison study, we designed a bipedal input strategy for sitting (BPSit) and a unipedal input strategy for standing (UPStand). Our first in-VR text-entry evaluation with 16 participants demonstrated that our methods could support the average typing speed from 8.99 WPM (BPSit) to 9.13 WPM (UPStand) for our first-time users. We further evaluated our design with a 7-day longitudinal study with twelve participants. Participants achieved an average typing speed of 15.05 WPM with UPStand and 16.70 WPM with BPSit in the visual condition, and 11.15 WPM and 12.87 WPM, respectively in the eyes-free condition.",
+        "year": 2026,
+        "venue": "CHI '26: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
+        "file": "#",
+        "link": "#",
+        "project_page": "project_template.html?id=15",
+        "authors": ["Xiyun Luo", "Weirong Luo", "Kening Zhu", "Taizhou Chen*"]
+      }
+    ],
+    "featured": true
+  },
   {
     "id": 14,
     "name": "Augmenting Typing Experience",
@@ -25,10 +87,10 @@
         "file": "docs/tipcase_lbw.pdf",
         "link": "https://dl.acm.org/doi/10.1145/3706599.3720116",
         "project_page": "project_template.html?id=14",
-        "authors": ["Yantao Liu", "Dongmin Xiao", "Taizhou Chen", "Kening Zhu"]
+        "authors": ["Yantao Liu", "Dongmin Xiao", "Taizhou Chen*", "Kening Zhu*"]
       }
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": 13,
@@ -52,10 +114,10 @@
         "file": "docs/airthumb_lbw.pdf",
         "link": "https://dl.acm.org/doi/full/10.1145/3706599.3721219",
         "project_page": "project_template.html?id=13",
-        "authors": ["Tianru Hu", "Taizhou Chen", "Kening Zhu"]
+        "authors": ["Tianru Hu", "Taizhou Chen*", "Kening Zhu"]
       }
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": 12,
