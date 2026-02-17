@@ -497,18 +497,26 @@ document.addEventListener('DOMContentLoaded', async function() {
                 
                 if (pub.file) {
                     const pdfLink = document.createElement('a');
-                    pdfLink.href = "../" + pub.file;
-                    pdfLink.className = 'btn btn-primary';
-                    pdfLink.style.marginRight = '0.5rem';
-                    pdfLink.textContent = 'PDF';
-                    pdfLink.target = '_blank';
-                    buttonsSection.appendChild(pdfLink);
+                    if (pub.file === '#'){
+                        pdfLink.className = 'btn btn-primary btn-disabled';
+                    }else{
+                        pdfLink.className = 'btn btn-primary';
+                        pdfLink.href = pub.file;
+                    }
+                        pdfLink.style.marginRight = '0.5rem';
+                        pdfLink.textContent = 'PDF';
+                        pdfLink.target = '_blank';
+                        buttonsSection.appendChild(pdfLink);
                 }
-                
-                if (pub.link) {
+                    
+                    if (pub.link) {
                     const doiLink = document.createElement('a');
-                    doiLink.href = pub.link;
-                    doiLink.className = 'btn btn-secondary';
+                    if(pub.link === '#'){
+                        doiLink.className = 'btn btn-primary btn-disabled';
+                    }else{
+                        doiLink.className = 'btn btn-secondary';
+                        doiLink.href = pub.link;
+                    }
                     doiLink.textContent = 'DOI';
                     doiLink.target = '_blank';
                     buttonsSection.appendChild(doiLink);

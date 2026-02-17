@@ -389,6 +389,13 @@ header {
   color: var(--text-on-primary);
 }
 
+.btn-disabled {
+  background-color: var(--border-color);
+  color: var(--text-secondary);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
 .btn-primary:hover {
   /* background-color: var(--primary-dark); */
 }
