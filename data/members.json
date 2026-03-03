@@ -102,16 +102,6 @@
         "link": ""
     },
     {
-        "id": 10,
-        "name": "Jiale Wu",
-        "type": "Graduate Students",
-        "title": "Master's Students",
-        "position": "Fall, 2025",
-        "email": "",
-        "image": "images/profile_img/jialewu.jpg",
-        "link": ""
-    },
-    {
         "id": 11,
         "name": "Siting Li",
         "type": "Graduate Students",
@@ -120,6 +110,25 @@
         "email": "",
         "image": "images/profile_img/sitingli.jpg",
         "link": ""
+    },
+    {
+        "id": 12,
+        "name": "Xinlin Huang",
+        "type": "Intern",
+        "title": "Undergraduate Students",
+        "position": "Bachelor's Intern",
+        "email": "",
+        "image": "images/profile_img/xinlinhuang.jpg",
+        "link": ""
+    },
+    {
+        "id": 12,
+        "name": "Shuzhao Xu",
+        "type": "Intern",
+        "title": "Undergraduate Students",
+        "position": "Bachelor's Intern",
+        "email": "",
+        "image": "images/profile_img/shuzhaoxu.jpg",
+        "link": ""
     }
-
 ]
