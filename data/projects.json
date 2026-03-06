@@ -3,7 +3,7 @@
   {
     "id": 16,
     "name": "BadminSense",
-    "title_short": "BadminSense: Enabling Fine-Grained Badminton Strokes Evaluation on Single Smartwatch",
+    "title_short": "Enabling Fine-Grained Badminton Strokes Evaluation on Single Smartwatch",
     "image": "images/project_img/badminsense.png",
 
     "content": {
@@ -15,14 +15,16 @@
         "We conduct a usability study highlighting the insights and benefits of our proposed system."
       ]
     },
-    
+    "resources": {
+      "source_code": "https://github.com/taizhouchen/BadminSense_Dataset"
+    },
     "publications":[
       {
         "title": "BadminSense: Enabling Fine-Grained Badminton Strokes Evaluation on Single Smartwatch",
         "abstract": "Evaluating badminton performance often requires expert coaching, which is rarely accessible for amateur players. We present BadminSense, a smartwatch-based system for fine-grained badminton performance analysis using wearable sensing. Through interviews with experienced badminton players, we identified four system design requirements with three implementation insights that guide the development of BadminSense. We then collected a badminton strokes dataset on 12 experienced badminton amateurs and annotated it with fine-grained labels, including stroke type, expert-assessed stroke rating, and shuttle impact location. Built on this dataset, BadminSense segments and classifies strokes, predicts stroke quality, and estimates shuttle impact location using vibration signal from an off-the-shelf smartwatch. Our evaluations show that BadminSense achieves a stroke classification accuracy of 91.43%, an average quality rating error of 0.438, and an average impact location estimation error of 12.9%. A real-world usability study further demonstrates BadminSense’s potential to provide reliable and meaningful support for daily badminton practice.",
         "year": 2026,
         "venue": "CHI '26: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
-        "file": "#",
+        "file": "docs/badminsense.pdf",
         "link": "#",
         "project_page": "project_template.html?id=16",
         "authors": ["Taizhou Chen", "Kai Chen", "Xingyu Liu", "Pingchun Ke", "Zhida Sun"]
@@ -34,9 +36,14 @@
   {
     "id": 15,
     "name": "AnkleType",
-    "title_short": "AnkleType: A Hands- and Eyes-free Foot-based Text Entry Technique in Virtual Reality",
+    "title_short": "A Hands- and Eyes-free Foot-based Text Entry Technique in Virtual Reality",
     "image": "images/project_img/ankletype.png",
-
+    "videos":{
+      "demo_video":{
+        "type":"youtube",
+        "url":"https://www.youtube.com/embed/OSwxVazNadg?si=9ZRzeiG-kUslueUK"
+      }
+    },
     "content": {
       "description": "Virtual Reality (VR) emphasizes immersive experiences, while text entry often requires hands or visual attention, which may disrupt the interaction flows in VR. We present AnkleType, a hand- and eye-free text-entry technique that leverages ankle-based gestures for both standing and sitting situations. We began with two preliminary studies: one investigated the movement range of users’ ankles, and the other elicited user-preferred ankle gestures for text-entry-related operations. The findings of these two studies guided our design of AnkleType. To optimize AnkleType’s keyboard layout for eye-free input, we conducted a user study to capture the users’ natural ankle spatial awareness with a computer-simulated language test. Through a pairwise comparison study, we designed a bipedal input strategy for sitting (BPSit) and a unipedal input strategy for standing (UPStand). Our first in-VR text-entry evaluation with 16 participants demonstrated that our methods could support the average typing speed from 8.99 WPM (BPSit) to 9.13 WPM (UPStand) for our first-time users. We further evaluated our design with a 7-day longitudinal study with twelve participants. Participants achieved an average typing speed of 15.05 WPM with UPStand and 16.70 WPM with BPSit in the visual condition, and 11.15 WPM and 12.87 WPM, respectively in the eyes-free condition.",
       "contributions":[
@@ -53,7 +60,7 @@
         "abstract": "Virtual Reality (VR) emphasizes immersive experiences, while text entry often requires hands or visual attention, which may disrupt the interaction flows in VR. We present AnkleType, a hand- and eye-free text-entry technique that leverages ankle-based gestures for both standing and sitting situations. We began with two preliminary studies: one investigated the movement range of users’ ankles, and the other elicited user-preferred ankle gestures for text-entry-related operations. The findings of these two studies guided our design of AnkleType. To optimize AnkleType’s keyboard layout for eye-free input, we conducted a user study to capture the users’ natural ankle spatial awareness with a computer-simulated language test. Through a pairwise comparison study, we designed a bipedal input strategy for sitting (BPSit) and a unipedal input strategy for standing (UPStand). Our first in-VR text-entry evaluation with 16 participants demonstrated that our methods could support the average typing speed from 8.99 WPM (BPSit) to 9.13 WPM (UPStand) for our first-time users. We further evaluated our design with a 7-day longitudinal study with twelve participants. Participants achieved an average typing speed of 15.05 WPM with UPStand and 16.70 WPM with BPSit in the visual condition, and 11.15 WPM and 12.87 WPM, respectively in the eyes-free condition.",
         "year": 2026,
         "venue": "CHI '26: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
-        "file": "#",
+        "file": "docs/ankletype.pdf",
         "link": "#",
         "project_page": "project_template.html?id=15",
         "authors": ["Xiyun Luo", "Weirong Luo", "Kening Zhu", "Taizhou Chen*"]
