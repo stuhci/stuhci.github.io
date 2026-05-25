@@ -26,7 +26,10 @@
     "content": [
       "We attended CHI 2025 at Barcelona, Spain and presented two papers!"
     ],
-    "links": [],
+    "links": [{
+          "name": "School media coverage (in Chinese)",
+          "link": "https://mp.weixin.qq.com/s/joRvvcvvTRJ4kBExO6yyCw"
+        }],
     "images": [
       "images/news/chi26/1.jpg",
       "images/news/chi26/2.jpg",
