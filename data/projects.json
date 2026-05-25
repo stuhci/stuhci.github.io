@@ -25,7 +25,7 @@
         "year": 2026,
         "venue": "CHI '26: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
         "file": "docs/badminsense.pdf",
-        "link": "#",
+        "link": "https://dl.acm.org/doi/10.1145/3772318.3790998",
         "project_page": "project_template.html?id=16",
         "authors": ["Taizhou Chen", "Kai Chen", "Xingyu Liu", "Pingchun Ke", "Zhida Sun"]
       }
@@ -61,7 +61,7 @@
         "year": 2026,
         "venue": "CHI '26: Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
         "file": "docs/ankletype.pdf",
-        "link": "#",
+        "link": "https://dl.acm.org/doi/10.1145/3772318.3790999",
         "project_page": "project_template.html?id=15",
         "authors": ["Xiyun Luo", "Weirong Luo", "Kening Zhu", "Taizhou Chen*"]
       }
