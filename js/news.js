@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
     newsData.forEach(news => {
       const newsItem = document.createElement('div');
       newsItem.className = 'news-item';
+      newsItem.id = 'news-' + news.id;
       
       // Create date element
       const dateElement = document.createElement('div');
@@ -53,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
         contentElement.appendChild(p);
       });
 
-      if(news.links.length > 0){
+      if(news.links && news.links.length > 0){
         news.links.forEach(link => {
           // Create link element
           const linkElement = document.createElement('a');
@@ -66,14 +67,27 @@ document.addEventListener('DOMContentLoaded', function() {
         })
       }
       
-      // Add image if available
-      if (news.hasImage && news.image) {
-        const img = document.createElement('img');
-        img.src = news.image;
-        img.alt = news.title;
-        img.style.maxWidth = '100%';
-        img.style.borderRadius = '8px';
-        contentElement.appendChild(img);
+      // Add images gallery if available
+      if (news.images && news.images.length > 0) {
+        const imagesContainer = document.createElement('div');
+        imagesContainer.className = 'news-images';
+        // Apply layout class based on image count
+        if (news.images.length === 3) {
+          imagesContainer.classList.add('news-images-3');
+        } else if (news.images.length === 4) {
+          imagesContainer.classList.add('news-images-4');
+        } else if (news.images.length >= 5) {
+          imagesContainer.classList.add('news-images-many');
+        }
+        news.images.forEach(imageSrc => {
+          const img = document.createElement('img');
+          img.className = 'news-image';
+          img.src = imageSrc;
+          img.alt = news.title;
+          img.loading = 'lazy';
+          imagesContainer.appendChild(img);
+        });
+        contentElement.appendChild(imagesContainer);
       }
       
       // Assemble the news item

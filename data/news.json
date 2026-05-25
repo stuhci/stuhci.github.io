@@ -1,5 +1,39 @@
 [
   {
+    "id": 16,
+    "date": "May 25, 2026",
+    "title": "Lab Visit",
+    "summary": "Yunpeng Bai, PhD candidate from NUS, visit our lab and give an insigntful talk on User Reading Behaviour Modeling!",
+    "content": [
+      "Yunpeng Bai, PhD candidate from NUS, visit our lab and give an insigntful talk on User Reading Behaviour Modeling!"
+    ],
+    "links": [
+        {
+          "name": "Yunpeng Bai @ NUS",
+          "link": "https://baiyunpeng1949.github.io/"
+        }
+      ],
+    "images": [
+      "images/news/yunpeng/1.jpg",
+      "images/news/yunpeng/2.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "date": "April 13, 2026",
+    "title": "Attend CHI 2026",
+    "summary": "We attended CHI 2025 at Barcelona, Spain and presented two papers!",
+    "content": [
+      "We attended CHI 2025 at Barcelona, Spain and presented two papers!"
+    ],
+    "links": [],
+    "images": [
+      "images/news/chi26/1.jpg",
+      "images/news/chi26/2.jpg",
+      "images/news/chi26/3.jpg"
+    ]
+  },
+  {
     "id": 14,
     "date": "January 15, 2026",
     "title": "Paper Acceptance",
@@ -7,8 +41,8 @@
     "content": [
       "Two papers were accepted by CHI 2026! Congratulations to the team!"
     ],
-    "image": "",
-    "hasImage": false
+    "links": [],
+    "images": []
   },
   {
     "id": 13,
@@ -18,8 +52,8 @@
     "content": [
       "Jianxin Wei, Xiangjun Fang, and Siting Li join us as master students. Welcomes!"
     ],
-    "image": "",
-    "hasImage": false
+    "links": [],
+    "images": []
   },
   {
     "id": 12,
@@ -29,8 +63,8 @@
     "content": [
       "Dr. Taizhou Chen served as a PC Member at SIGGRAPH Aisa eTech 2026!"
     ],
-    "image": "",
-    "hasImage": false
+    "links": [],
+    "images": []
   },
   {
     "id": 11,
@@ -50,8 +84,7 @@
         "link": "project_pages/project_airthumb.html"
       }
     ],
-    "image": "",
-    "hasImage": false
+    "images": []
   },
   {
     "id": 10,
@@ -62,8 +95,7 @@
       "Two papers were accepted by CHI 2025 LBW! Congrats to Yantao and Tianrui!"
     ],
     "links": [],
-    "image": "",
-    "hasImage": false
+    "images": []
   },
   {
     "id": 9,
@@ -74,8 +106,7 @@
       "We Visit VCC Lab at Shenzhen University!"
     ],
     "links": [],
-    "image": "",
-    "hasImage": false
+    "images": []
   },
   {
     "id": 8,
@@ -87,8 +118,7 @@
       "Project Title: Low-Tethered Gesture-Based Interaction Techniques for Mobile VR Device"
     ],
     "links": [],
-    "image": "",
-    "hasImage": false
+    "images": []
   },
   {
     "id": 7,
@@ -99,8 +129,7 @@
       "Attended Chinese CHI 2024 at SUSTech!"
     ],
     "links": [],
-    "image": "",
-    "hasImage": false
+    "images": []
   },
   {
     "id": 6,
@@ -111,8 +140,7 @@
       "Weirong Luo and Xiyun Luo join us as master students. Welcomes!"
     ],
     "links": [],
-    "image": "",
-    "hasImage": false
+    "images": []
   },
   {
     "id": 5,
@@ -124,8 +152,7 @@
       "Project Title: Ring-Based Interaction Techniques Through Electric-Field Sensing"
     ],
     "links": [],
-    "image": "",
-    "hasImage": false
+    "images": []
   },
   {
     "id": 4,
@@ -141,8 +168,7 @@
         "link": "https://sensilab.monash.edu/forums/multimodal-embodied-user-interface-for-natural-hci/"
       }
     ],
-    "image": "",
-    "hasImage": false
+    "images": []
   },
   {
     "id": 3,
@@ -153,8 +179,7 @@
       "Dr. Taizhou Chen served as a PC Member at SIGGRAPH Aisa eTech 2025"
     ],
     "links": [],
-    "image": "images/news-student.jpg",
-    "hasImage": false
+    "images": []
   },
   {
     "id": 2,
@@ -165,8 +190,7 @@
       "We attended Scalable HCI Symposium 2024 at SUSTech!"
     ],
     "links": [],
-    "image": "",
-    "hasImage": false
+    "images": []
   },
   {
     "id": 1,
@@ -177,7 +201,6 @@
       "Yantao Liu join us as a master student. Welcomes!"
     ],
     "links": [],
-    "image": "",
-    "hasImage": false
+    "images": []
   }
 ]

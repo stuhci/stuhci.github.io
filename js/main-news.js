@@ -35,30 +35,36 @@ document.addEventListener('DOMContentLoaded', function() {
       const newsItem = document.createElement('div');
       newsItem.className = 'news-item';
       
+      // Make the item clickable to navigate to the full news page
+      newsItem.style.cursor = 'pointer';
+      newsItem.addEventListener('click', function() {
+        window.location.href = 'news.html#news-' + news.id;
+      });
+
       // Create date element
       const dateElement = document.createElement('div');
       dateElement.className = 'news-date';
       dateElement.textContent = news.date;
-      
+
       // Create title element
       const titleElement = document.createElement('h3');
       titleElement.className = 'news-title';
       titleElement.textContent = news.title;
-      
+
       // Create content container
       const contentElement = document.createElement('div');
       contentElement.className = 'news-content';
-      
+
       // Add summary paragraph
       const p = document.createElement('p');
       p.textContent = news.summary;
       contentElement.appendChild(p);
-      
+
       // Assemble the news item
       newsItem.appendChild(dateElement);
       newsItem.appendChild(titleElement);
       newsItem.appendChild(contentElement);
-      
+
       // Add to container
       newsContainer.appendChild(newsItem);
     });
